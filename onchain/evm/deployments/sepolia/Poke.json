@@ -1,0 +1,114 @@
+{
+  "address": "0x530b4e3e6cf61fec300e4bedc4f4477af461a5b6",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "by",
+          "type": "uint256"
+        }
+      ],
+      "name": "Increment",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "inc",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "by",
+          "type": "uint256"
+        }
+      ],
+      "name": "incBy",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "x",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "contractName": "Poke",
+  "sourceName": "src/Poke/Poke.sol",
+  "bytecode": "0x6080604052348015600e575f5ffd5b5061026b8061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461005d57806370119d0614610067575b5f5ffd5b61004b5f5481565b60405190815260200160405180910390f35b61006561007a565b005b6100656100753660046101a1565b6100c3565b5f80549080610088836101e5565b9091555050604051600181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a1565b5f8111610156576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152602360248201527f696e6342793a20696e6372656d656e742073686f756c6420626520706f73697460448201527f6976650000000000000000000000000000000000000000000000000000000000606482015260840160405180910390fd5b805f5f828254610166919061021c565b90915550506040518181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a150565b5f602082840312156101b1575f5ffd5b5035919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610215576102156101b8565b5060010190565b8082018082111561022f5761022f6101b8565b9291505056fea26469706673582212201fd362ef46e37682182c7395427f1d3527edb51e8dc7eab2d450a2413b960a8c64736f6c634300081c0033",
+  "deployedBytecode": "0x608060405234801561000f575f5ffd5b506004361061003f575f3560e01c80630c55699c14610043578063371303c01461005d57806370119d0614610067575b5f5ffd5b61004b5f5481565b60405190815260200160405180910390f35b61006561007a565b005b6100656100753660046101a1565b6100c3565b5f80549080610088836101e5565b9091555050604051600181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a1565b5f8111610156576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152602360248201527f696e6342793a20696e6372656d656e742073686f756c6420626520706f73697460448201527f6976650000000000000000000000000000000000000000000000000000000000606482015260840160405180910390fd5b805f5f828254610166919061021c565b90915550506040518181527f51af157c2eee40f68107a47a49c32fbbeb0a3c9e5cd37aa56e88e6be92368a819060200160405180910390a150565b5f602082840312156101b1575f5ffd5b5035919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610215576102156101b8565b5060010190565b8082018082111561022f5761022f6101b8565b9291505056fea26469706673582212201fd362ef46e37682182c7395427f1d3527edb51e8dc7eab2d450a2413b960a8c64736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "immutableReferences": {},
+  "inputSourceName": "project/src/Poke/Poke.sol",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "evm": {
+    "gasEstimates": {
+      "creation": {
+        "codeDepositCost": "123800",
+        "executionCost": "169",
+        "totalCost": "123969"
+      },
+      "external": {
+        "inc()": "25484",
+        "incBy(uint256)": "25620",
+        "x()": "2259"
+      }
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"by\",\"type\":\"uint256\"}],\"name\":\"Increment\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"inc\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"by\",\"type\":\"uint256\"}],\"name\":\"incBy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"x\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project/src/Poke/Poke.sol\":\"Poke\"},\"evmVersion\":\"prague\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"project/src/Poke/Poke.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.28;\\n\\ncontract Poke {\\n  uint public x;\\n\\n  event Increment(uint by);\\n\\n  function inc() public {\\n    x++;\\n    emit Increment(1);\\n  }\\n\\n  function incBy(uint by) public {\\n    require(by > 0, \\\"incBy: increment should be positive\\\");\\n    x += by;\\n    emit Increment(by);\\n  }\\n}\\n\",\"keccak256\":\"0xd1eddad4c97b4c816095ecb692015834de20526181c985c074b158d66f283749\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "project/src/Poke/Poke.sol:Poke",
+        "label": "x",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "argsData": "0x",
+  "transaction": {
+    "hash": "0x1406893679c4ef183d47d8e9ef95fffbb9d3af1c6081447feb7c47508076653a",
+    "nonce": "0xa",
+    "origin": "0x80dd7b3614cf790f7cd355c97f420c3449f30ddc"
+  },
+  "receipt": {
+    "blockHash": "0xbb085258a52e678a6fc4e8b00bbc36fb79838411dac8da196893b9b7efc0e42d",
+    "blockNumber": "0x93d75f",
+    "transactionIndex": "0x2c"
+  }
+}
